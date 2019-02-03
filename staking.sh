@@ -38,7 +38,7 @@ sudo ufw limit ssh/tcp
 sudo ufw logging on
 echo "y" | sudo ufw enable
 sudo ufw status
-sudo ufw allow 10155/tcp
+sudo ufw allow 10121/tcp
   
 cd
 mkdir -p .mtap
@@ -54,7 +54,7 @@ echo "maxconnections=256" >> mtap.conf
 echo "addnode=199.247.28.181" >> mtap.conf
 echo "addnode=95.179.177.14" >> mtap.conf
 echo "addnode=95.179.145.180" >> mtap.conf
-echo "port=10155" >> mtap.conf
+echo "port=10121" >> mtap.conf
 mv mtap.conf .mtap
 
   
